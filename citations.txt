@@ -1,0 +1,26 @@
+CITATIONS:
+
+
+	CSS/HTML template from bootstrap introduction tutorial:
+
+	    http://getbootstrap.com/getting-started/
+	    http://getbootstrap.com/examples/carousel/
+
+	    Utilized here:
+
+	    	FinalProject\app\assets\stylesheets\carousel.css
+	    	FinalProject\app\views\welcome\index.html.erb
+
+	Ruby on Rails starter tutorial:
+
+		http://guides.rubyonrails.org/getting_started.html
+
+		Utilized to setup the rails application structure and commenting.
+
+	Rails on Heroku tutorial:
+
+		http://railsapps.github.io/rails-heroku-tutorial.html
+
+		Utilized for gem setup and bundle installation configurations.
+
+

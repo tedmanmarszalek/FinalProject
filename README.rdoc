@@ -1,28 +1,24 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+See further documentation supplied in /documentation.
 
-Things you may want to cover:
+Ruby on Rails Personal Website Application:
 
-* Ruby version
+* Ruby version 2.1.6
 
-* System dependencies
+* Bundle install to utilize gems
 
-* Configuration
+* Database: sqlite3 development, PostgresSQL production
 
-* Database creation
+* Final Project Schedule outlined in documents folder
 
-* Database initialization
+* Manual Test Documentation in documents folder
 
-* How to run the test suite
+* See citations in root directory for Bootstrap CSS/HTML template
 
-* Services (job queues, cache servers, search engines, etc.)
+* See citations in root directory for general Rails/Heroku tutorial references.
 
-* Deployment instructions
+* Deployed to Heroku: tedmanmarszalek.herokuapp.com
 
-* ...
+* www.tedman.info
 
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
