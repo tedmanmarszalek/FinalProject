@@ -11,6 +11,15 @@ CITATIONS:
 	    	FinalProject\app\assets\stylesheets\carousel.css
 	    	FinalProject\app\views\welcome\index.html.erb
 
+	CSS/HTML Twitter embed timeline template:
+
+		https://dev.twitter.com/web/overview/css
+
+		Utilized here:
+
+			FinalProject\app\assets\stylesheets\twitter.css
+
+
 	Ruby on Rails starter tutorial:
 
 		http://guides.rubyonrails.org/getting_started.html

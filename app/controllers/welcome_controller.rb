@@ -1,5 +1,5 @@
 class WelcomeController < ApplicationController
-	
+
   def index
   end
 
@@ -7,6 +7,9 @@ class WelcomeController < ApplicationController
   end
 
   def about
+  end
+
+  def projects
   end
 
 end
