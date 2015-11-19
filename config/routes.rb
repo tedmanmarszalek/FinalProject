@@ -1,19 +1,22 @@
 Rails.application.routes.draw do
 
+  devise_for :admin_users, ActiveAdmin::Devise.config
+  ActiveAdmin.routes(self)
+  # mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
+
+  # The priority is based upon order of creation: first created -> highest priority.
+  # See how all your routes lay out with "rake routes".
+
   get 'welcome/index'
 
   get 'welcome/contact'
 
   get 'welcome/about'
 
-  get 'welcome/projects'
+  get 'welcome/photos'
 
   get 'welcome/music'
 
-  # The priority is based upon order of creation: first created -> highest priority.
-  # See how all your routes lay out with "rake routes".
-
-  # You can have the root of your site routed with "root"
   root 'welcome#index'
 
   # Example of regular route:

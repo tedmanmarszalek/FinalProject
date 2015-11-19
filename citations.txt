@@ -11,6 +11,14 @@ CITATIONS:
 	    	FinalProject\app\assets\stylesheets\carousel.css
 	    	FinalProject\app\views\welcome\index.html.erb
 
+	Javascript Instafeed tutorial:
+
+		https://github.com/stevenschobert/instafeed.js
+
+		Utilized here:
+
+			FinalProject\app\views\welcome\photos.html.erb
+
 	CSS/HTML Twitter embed timeline template:
 
 		https://dev.twitter.com/web/overview/css
