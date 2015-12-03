@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
     <meta name="description" content="">
     <meta name="author" content="">
     <link rel="icon" href="../../favicon.ico">
@@ -65,11 +65,49 @@
 
     <div class="container marketing">
 
-      <!-- FEATURETTES -->
+    <hr class="featurette-divider">
 
-      <hr class="featurette-divider">
+    <!-- See citations.txt, Reference: https://bootswatch.com/cosmo/#forms -->
 
-      <hr class="featurette-divider">
+    <!-- Contact Form -->
+    <form class="form-horizontal">
+    <fieldset>
+      <legend>Contact</legend>
+      <div class="form-group">
+        <label for="inputName" class="col-lg-2 control-label">Full Name:</label>
+        <div class="col-lg-10">
+          <input type="text" class="form-control" id="inputName" placeholder="Name">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputEmail" class="col-lg-2 control-label">Email Address:</label>
+        <div class="col-lg-10">
+          <input type="text" class="form-control" id="inputEmail" placeholder="Email">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputPhone" class="col-lg-2 control-label">Phone Number:</label>
+        <div class="col-lg-10">
+          <input type="text" class="form-control" id="inputPhone" placeholder="Number">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="textArea" class="col-lg-2 control-label">Message</label>
+        <div class="col-lg-10">
+          <textarea class="form-control" rows="3" id="message"></textarea>
+        </div>
+      </div>
+      <div class="form-group">
+      <div class="col-lg-10 col-lg-offset-2">
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </div>
+    </div>
+
+  </form>
+
+  <hr class="featurette-divider">
+
+<!--
 
       <div class="row featurette">
         <div class="col-md-7 col-md-push-5">
@@ -155,6 +193,8 @@
 
       <hr class="featurette-divider">
 
+-->
+
       <!-- /END THE FEATURETTES -->
 
       <!-- FOOTER -->
@@ -163,7 +203,6 @@
       </footer>
 
     </div><!-- /.container -->
-
 
     <!-- Bootstrap JavaScript -->
     <!-- Placed at the end of the document so the pages load faster -->

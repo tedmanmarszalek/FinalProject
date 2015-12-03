@@ -18,6 +18,8 @@ gem 'coffee-rails'#, '~> 4.1.0'
 
 gem 'activeadmin', github: 'activeadmin'
 gem 'devise'
+gem 'mail_form'
+gem 'simple_form'
 
 # Used for bootstrap
 gem 'bootstrap-sass'
